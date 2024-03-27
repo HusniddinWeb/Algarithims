@@ -37,7 +37,6 @@ for(let i = 0; i <= a; i++){
 
 // 4-misol
 // Tub sonlarni chiqaruvchi dastur
-
 for(let i=1; i <= a; i++){
     let n=0;
     for(let j=1; j <= i; j++){
@@ -53,7 +52,6 @@ for(let i=1; i <= a; i++){
 
 // 5-misol
 // 1 dan N gacha bo'lgan juft sonlarning kivadratlari yig'indisini chiqarish
-
 let s2 = 0;
 for(let i=2; i <= a; i += 2){
     s2 += i**2;
@@ -64,7 +62,6 @@ for(let i=2; i <= a; i += 2){
 
 // 6-misol 
 // 1 dan N gacha bo'lgan sonlarning o'zaro ikkitasining ko'paytmasini chiqarish
-
 for(let i = a; i > 1; i--){
     // console.log((i - 1) * i );
 }
@@ -72,10 +69,8 @@ for(let i = a; i > 1; i--){
 
 // 7-misol
 // 1 dan N gacha bo'lgan sonlarning faktaryalini hisoblash
-
 let s3 = 0;
 let p = 1;
-
 for(let i=1; i <= a; i++){
     p *= i
     // console.log(p)
@@ -94,7 +89,6 @@ let array = [1,2,3,4,5,6,7,8,9,10]
 
 // 1-usul
 let s4 = 0;
-
 for(let i = 1; i <= array.length; i++){
     s4 += i 
 }
@@ -107,9 +101,7 @@ let text = array.reduce((a,b) => a + b)
 
 // 2-misol
 // Massivdagi 5 dan katta sonlarni chiqarish
-
 let b = array.filter(item => item > 5);
-
 b.map((item) => {
     // console.log(item)
 })
