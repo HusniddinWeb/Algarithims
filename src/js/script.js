@@ -1,7 +1,6 @@
 "use strict"
 
-
-let a = +prompt("Raqam kiriting");
+let a = + prompt("Raqam kiriting");
 
 // 1-misol  
 // 1 dan N gacha bo'lgan toq sonlarni ekranga chiqarish
@@ -82,7 +81,7 @@ for(let i=1; i <= a; i++){
 
 // Arraylar 
 
-let array = [1,2,3,4,5,6,7,8,9,10]
+let array = [1,2,3,43,5,66,7,8,9,10]
 
 // 1-misol
 // Massivdagi sonlarning yig'indisini hisoblash
@@ -105,4 +104,11 @@ let b = array.filter(item => item > 5);
 b.map((item) => {
     // console.log(item)
 })
+
+
+// 3-misol 
+// Massivdagi sonlarni alfabet bo'ycha chiqarish
+
+let clops = array.sort((a, b) => a > b ? 1 : -1);
+// console.log(clops)
 
