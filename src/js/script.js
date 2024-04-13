@@ -112,3 +112,11 @@ b.map((item) => {
 let clops = array.sort((a, b) => a > b ? 1 : -1);
 // console.log(clops)
 
+
+// 4-misol
+// Textni teskari chiqarish
+
+let text1 = "Salom Dunyo";
+let massiv = text1.split("") // Bu textdagi har bir harifni massivga aylantiradi
+let result = massiv.reverse().join("")
+console.log(result)
